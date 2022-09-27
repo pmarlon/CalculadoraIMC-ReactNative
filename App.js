@@ -36,6 +36,7 @@ export default function App() {
     } else if (imc >= 40) {
       setMensagem('Obesidade Grau III ou Mórbida');
     } else {
+      setResultado('0.00')
       setMensagem('Preencha os dados corretamente.');
     }
   }
